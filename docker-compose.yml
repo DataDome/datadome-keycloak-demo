@@ -20,6 +20,9 @@ services:
       KEYCLOAK_ADMIN: admin
       KEYCLOAK_ADMIN_PASSWORD: admin
       KC_PROXY_HEADERS: xforwarded
+      KC_THEME: base
+      KC_THEME_LOGIN: datadome
+      KC_THEME_ACCOUNT: datadome
       PROXY_ADDRESS_FORWARDING: "true"
     command:
       - "-v"
