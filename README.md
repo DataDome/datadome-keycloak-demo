@@ -12,7 +12,7 @@ For additional information, please check our [public documentation](https://docs
 
 ### Configuration
 
-To enable the DataDome's protection, you have to update the following lines:
+To activate DataDome Bot Protection, update the following lines:
 
 1. In `./nginx.conf`, replace the `datadome_server_side_key` (line 53) by your own DataDome server-side key
 2. In `./themes/datadome/account/resources/js/script.js`, replace the `DATADOME_CLIENT_SIDE_KEY` (line 1) by your own DataDome client-side key
